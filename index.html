@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cooking World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+
+<header>
+  <h1> Evie's Cookbook! </h1>
+  <p> yummy yum yum</p>
+</header>
+
+<div class="container">
+  <h2> really cool and yummy foods</h2>
+  <div class="food-gallery">
+    <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e" alt="pasta">
+    <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307" alt="dessert">
+    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="sushi">
+    <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="steak">
+  </div>
+
+  <h2>🍽️ My Recipes</h2>
+  <div class="recipe-grid">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e" alt="Creamy Pasta">
+      <div class="card-content">
+        <h3>Creamy Garlic Pasta</h3>
+        <p>Rich, comforting pasta with garlic cream sauce.</p>
+        <button onclick="alert('Ingredients: pasta, garlic, cream...')">View Recipe</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307" alt="Chocolate Cake">
+      <div class="card-content">
+        <h3>Chocolate Cake</h3>
+        <p>Moist and decadent chocolate dessert.</p>
+        <button onclick="alert('Ingredients: cocoa, flour, sugar...')">View Recipe</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Sushi">
+      <div class="card-content">
+        <h3>Homemade Sushi</h3>
+        <p>Fresh rolls with your favorite fillings.</p>
+        <button onclick="alert('Ingredients: rice, nori, fish...')">View Recipe</button>
+      </div>
+    </div>
+
+  </div>
+
+  <h2>Explore</h2>
+  <button onclick="showMessage()">Why I Love Cooking</button>
+  <button onclick="changeBackground()">Change Theme</button>
+</div>
+
+<footer>
+  <p>Made with ❤️ for food</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
